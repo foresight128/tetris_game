@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "fontover";
+  src: url(../font/Font-Over.woff) format("woff");
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background: black;
+  text-align: center;
+  color: white;
+  font-family: "fontover", sans-serif;
+}

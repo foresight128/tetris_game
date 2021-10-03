@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "fontover";
+  src: url(../font/Font-Over.woff) format("woff");
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background: black;
+  text-align: center;
+  color: white;
+  font-family: "fontover", sans-serif;
+}
+
+.title span:nth-child(1) {
+  color: #1629b3;
+}
+.title span:nth-child(2) {
+  color: #efb927;
+}
+.title span:nth-child(3) {
+  color: #c20e95;
+}
+.title span:nth-child(4) {
+  color: #127912;
+}
+.title span:nth-child(5) {
+  color: #1eaca7;
+}
+.title span:nth-child(6) {
+  color: #5415a2;
+}
+.title span:nth-child(7) {
+  color: #5b685f;
+}
+.title span:nth-child(8) {
+  color: #78745f;
+}
+.title span:nth-child(9) {
+  color: #755c5c;
+}
+.title span:nth-child(10) {
+  color: #6e7683;
+}
+
+.wrapper .title {
+  font-weight: 700;
+  margin: 50px 0 0;
+}
+.wrapper .game-text {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  left: 0;
+  top: 0;
+  font-size: 50px;
+}
+.wrapper .game-text > button {
+  padding: 0.5rem 2rem;
+  color: #000;
+  background: #ccc;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  margin: 100px 0;
+  font-size: 15px;
+}
+.wrapper .game-text > button:hover {
+  color: #ccc;
+  background: #000;
+}
+.wrapper .score {
+  margin: 2rem 0;
+  font-size: 20px;
+}
+.wrapper .playground > ul {
+  border: 1px solid #333;
+  width: 250px;
+  margin: 0 auto;
+}
+.wrapper .playground > ul > li {
+  width: 100%;
+  height: 25px;
+}
+.wrapper .playground > ul > li > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .playground > ul > li > ul > li {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid #333;
+}
+.wrapper .tree {
+  background: #1629b3;
+}
+.wrapper .square {
+  background: #efb927;
+}
+.wrapper .bar {
+  background: #c20e95;
+}
+.wrapper .zee {
+  background: #127912;
+}
+.wrapper .elLeft {
+  background: #1eaca7;
+}
+.wrapper .elRight {
+  background: #5415a2;
+}

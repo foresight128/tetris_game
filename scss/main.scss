@@ -1,0 +1,82 @@
+@import "common";
+@import "colors";
+
+.wrapper{
+    .title{
+        font-weight: 700;
+        margin: 50px 0 0;
+    }
+    .game-text{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        left: 0;
+        top: 0;
+        font-size: 50px;
+
+        >button{
+            padding:  0.5rem 2rem;
+            color: #000;
+            background: #ccc;
+            border: 2px solid #ccc;
+            cursor: pointer;
+            margin: 100px 0;
+            font-size: 15px; 
+
+            &:hover{
+                color: #ccc;
+                background: #000;
+            }
+        }
+    }
+    .score{
+        margin: 2rem 0;
+        font-size: 20px;
+    }
+    .playground{
+        >ul{
+            border: 1px solid #333;
+            width: 250px;
+            margin: 0 auto;
+
+            >li{
+                width: 100%;
+                height: 25px;  
+
+                >ul{
+                    display: flex;
+
+                    >li{
+                        width: 25px;
+                        height: 25px;
+                        outline: 1px solid #333;
+                    }
+                }
+            }
+        }
+        
+    }
+    .tree{
+        background: #1629b3;
+    }
+    .square{
+        background:#efb927;
+    }
+    .bar{
+        background: #c20e95;
+    }
+    .zee{
+        background: #127912;
+    }
+    .elLeft{
+        background: #1eaca7;
+    }
+    .elRight{
+        background: #5415a2;
+    }
+}
